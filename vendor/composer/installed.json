@@ -1,0 +1,114 @@
+{
+    "packages": [
+        {
+            "name": "authorizenet/authorizenet",
+            "version": "2.0.3",
+            "version_normalized": "2.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AuthorizeNet/sdk-php.git",
+                "reference": "e1acf55c9cb22bef1852b1e494502973ade11cce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AuthorizeNet/sdk-php/zipball/e1acf55c9cb22bef1852b1e494502973ade11cce",
+                "reference": "e1acf55c9cb22bef1852b1e494502973ade11cce",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "time": "2024-05-29T17:33:13+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Official PHP SDK for Authorize.Net",
+            "homepage": "http://developer.authorize.net",
+            "keywords": [
+                "authorize.net",
+                "authorizenet",
+                "ecommerce",
+                "payment"
+            ],
+            "support": {
+                "issues": "https://github.com/AuthorizeNet/sdk-php/issues",
+                "source": "https://github.com/AuthorizeNet/sdk-php/tree/2.0.3"
+            },
+            "install-path": "../authorizenet/authorizenet"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v15.5.0",
+            "version_normalized": "15.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "d20fbbf2557773106c0ec2198b1b16b40f5081bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/d20fbbf2557773106c0ec2198b1b16b40f5081bc",
+                "reference": "d20fbbf2557773106c0ec2198b1b16b40f5081bc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "3.5.0",
+                "phpstan/phpstan": "^1.2",
+                "phpunit/phpunit": "^5.7 || ^9.0"
+            },
+            "time": "2024-08-01T21:25:52+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "support": {
+                "issues": "https://github.com/stripe/stripe-php/issues",
+                "source": "https://github.com/stripe/stripe-php/tree/v15.5.0"
+            },
+            "install-path": "../stripe/stripe-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
