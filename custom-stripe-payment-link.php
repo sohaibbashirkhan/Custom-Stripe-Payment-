@@ -91,7 +91,7 @@ function csp_send_payment_link($order_id, $payment_link) {
 }
 
 function csp_notify_admin($order_id, $payment_link) {
-    $admin_email = 'rock@plexlogo.com';
+    $admin_email = 'your@gmail.com';
     $order = wc_get_order($order_id);
     $order_number = $order ? $order->get_order_number() : $order_id;
 
